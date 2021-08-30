@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learning-web3py"
+version = "0.1.0"
+description = "This is me going through various web3py tutorials"
+authors = ["Rasul Kireev"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
